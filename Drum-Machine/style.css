@@ -11,7 +11,7 @@ body {
   }
   
   .display{
-    color: yellow;
+    color: black;
     text-shadow: 1px 1px 1px white;
     font-size: 2rem;
     background: transparent;
@@ -37,16 +37,16 @@ body {
   }
   
   .drum-pad{
-    border: 2px solid blue;
+    border: 2px solid black;
     margin: 10px;
     padding: 5px;
-    border-radius: 15%;
+    border-radius: 25px;
     background: white;
     font-size: 3.5rem;
-    color: blue;
+    color: black;
   }
   
   .drum-pad:hover{
-    background: yellow;
-    color: black;
+    background: pink;
+    color: black
   }  
