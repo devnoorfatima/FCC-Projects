@@ -1,0 +1,62 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Drum Machine</title>
+</head>
+<body>
+    <div id="drum-machine">
+  
+        <div class="display"> 
+          <p id="display"></p>
+        </div>
+        
+        <div class="wrapper">
+        <button data-key="81" id="chord1" class="drum-pad">
+          Q
+          <audio data-key="81" class="clip" id="Q" src="https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3" />
+        </button>
+        <button data-key="87" id="chord2" class="drum-pad">
+          W
+          <audio data-key="87" class="clip" id="W" src="https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3" />
+        </button>
+        <button data-key="69" id="chord3" class="drum-pad">
+          E
+          <audio data-key="69" class="clip" id="E" src="https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3" />
+        </button>
+        <button data-key="65" id="shaker" class="drum-pad">
+          A
+          <audio data-key="65" class="clip" id="A" src="https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3" />
+        </button>
+        <button data-key="83" id="openHH" class="drum-pad">
+          S
+          <audio data-key="83" class="clip" id="S" src="https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3" />
+        </button>
+        <button data-key="68" id="closedHH" class="drum-pad">
+          D
+          <audio data-key="68" class="clip" id="D" src="https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3" />
+        </button>
+        <button data-key="90" id="punchy-kick" class="drum-pad">
+          Z
+          <audio data-key="90" class="clip" id="Z" src="https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3" />
+        </button>
+        <button data-key="88" id="side-stick"  class="drum-pad">
+          X
+          <audio data-key="88" class="clip" id="X" src="https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3" />
+        </button>
+        <button data-key="67" id="snare" class="drum-pad">
+          C
+          <audio data-key="67" class="clip" id="C" src="https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3" />
+        </button>
+        </div>  
+      </div>
+<!-- script tags -->
+<script src="script.js"></script>
+
+    </body>
+</html>
